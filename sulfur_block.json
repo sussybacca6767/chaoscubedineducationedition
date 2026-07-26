@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "custom:sulfur_block",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.67
+      },
+      "minecraft:map_color": "#E5E533",
+      "minecraft:friction": 0.2,
+      "minecraft:light_dampening": 15
+    }
+  }
+}
+{
+  "format_version": "1.21.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "custom:sulfur_cube",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 16,
+        "max": 16
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:physics": {},
+      "minecraft:collision_box": {
+        "width": 0.8,
+        "height": 0.8
+      },
+      "minecraft:jump.static": {},
+      "minecraft:bribeable": {
+        "bribe_items": [
+          "minecraft:tnt",
+          "minecraft:oak_planks"
+        ]
+      },
+      "minecraft:type_family": {
+        "family": ["sulfur_cube", "mob"]
+      }
+    }
+  }
+}
