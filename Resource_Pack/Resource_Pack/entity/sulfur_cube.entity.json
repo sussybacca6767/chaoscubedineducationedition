@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "custom:sulfur_cube",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/sulfur_cube"
+      },
+      "geometry": {
+        "default": "geometry.slime"
+      },
+      "render_controllers": [ "controller.render.slime" ],
+      "spawn_egg": {
+        "base_color": "#CCCC00",
+        "overlay_color": "#555500"
+      }
+    }
+  }
+}
