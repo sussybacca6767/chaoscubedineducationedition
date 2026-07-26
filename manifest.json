@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sulfur Caves Add-On BP",
+    "description": "Behavior Pack for Sulfur Blocks & Cubes",
+    "uuid": "8a32b6e1-231a-4d32-9b2d-111111111111",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "22222222-2222-2222-2222-222222222222",
+      "version": [1, 0, 0]
+    }
+  ]
+}
