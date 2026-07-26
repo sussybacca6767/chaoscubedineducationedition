@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "custom:sulfur_ore_feature"
+    },
+    "count": 12,
+    "places_block": "custom:sulfur_block",
+    "replace_rules": [
+      {
+        "places_block": "custom:sulfur_block",
+        "may_replace": ["minecraft:stone", "minecraft:deepslate"]
+      }
+    ]
+  }
+}
