@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.0",
+  "custom:sulfur_block": {
+    "textures": "sulfur_block",
+    "sound": "stone"
+  }
+}
